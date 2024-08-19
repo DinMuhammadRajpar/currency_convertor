@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/Assets/backgrondImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+  background-color: rgb(226, 227, 230);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 8px 6px 20px 4px rgb(179 157 160);
+}
+
+form input,
+button,
+select {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+  background-color: rgb(226, 227, 230);
+}
+
+form input {
+  border: 1px solid rgb(126, 114, 114);
+  font-size: 1rem;
+  font-weight: 300;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+/* .to {
+    margin: 1rem 0rem 1rem 0rem;
+} */
+.from {
+  margin-bottom: 1rem 0rem 1rem 0rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+}
+
+.dropdown i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0rem 2rem;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(126, 114, 114);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+
+.select-container img {
+  max-width: 2rem;
+}
