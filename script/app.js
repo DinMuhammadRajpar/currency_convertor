@@ -40,7 +40,7 @@ const updateFlag = (element) =>{
     img.src = newSrc;
 }
 
-window.addEventListener('load', async()=>{
+window.addEventListener('load', ()=>{
     updateExchangeRate();
 })
 
